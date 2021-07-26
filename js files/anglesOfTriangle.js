@@ -11,7 +11,6 @@ button.addEventListener('click', ()=>{
     }
 
     let sum = 0;
-    console.log(angles);
 
     angles.map((angle)=>{
         sum = sum + angle;
