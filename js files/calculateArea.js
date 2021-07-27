@@ -1,6 +1,4 @@
-
-
-const areaCalBlock = document.querySelectorAll(".areaCal");
+const areaCalBlock = document.querySelectorAll(".areaCalBlock");
 const areaShowHere = document.querySelectorAll(".areaShowHere");
 
 const inputInOption1 = document.querySelectorAll(".inputInOption1");

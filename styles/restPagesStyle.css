@@ -19,14 +19,6 @@ body{
     justify-content: center;
 }
 
-.section{
-    width: 100%;
-    max-width: 600px;
-    text-align: center;
-    margin: 2rem 1rem;
-
-}
-
 .label{
     font-weight: bold;
     display: inline-block;
@@ -38,6 +30,10 @@ body{
 
 .beginnersQuiz label.question{
     display: block;
+}
+
+.formulaSelectionForm{
+    text-align: left;
 }
 
 .radio input{
@@ -156,10 +152,16 @@ body{
     position: relative;
     width: 100px;
     height: 100px;
-    left: 59px;
     margin: 0 auto 20px;
 }
 
+.triangles{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+    left: 59px;
+}
 .triangle label{
     position: absolute;
     font-size: 0.8rem;
@@ -252,7 +254,7 @@ body{
     bottom: -100px;
 }
 
-.areaCal{
+.areaCalBlock{
     display: none;
 }
 
